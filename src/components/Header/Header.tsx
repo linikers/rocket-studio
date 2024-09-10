@@ -3,7 +3,22 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <Box sx={{ padding: "1rem", backgroundColor: "#f5f5f5", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+    <Box 
+      sx={{
+        padding: "1rem", 
+        backgroundColor: "#f5f500", 
+        display: "flex", 
+        justifyContent: "space-between", 
+        alignItems: "center",
+        width: "70vw",
+        maxWidth: "100%",
+        margin: "0 auto",
+        textAlign: {
+          xs: 'center',  // Centraliza o texto em telas pequenas
+          sm: 'left',    // Alinha à esquerda em telas maiores
+        },
+      }}
+    >
       <Typography variant="h6">Rocket Studio</Typography>
       <Box>
         {/* Usando Buttons e Links para navegação */}

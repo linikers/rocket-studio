@@ -4,7 +4,19 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <Box sx={{ padding: "1rem", backgroundColor: "#f5f5f5", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+    <Box 
+      sx={{
+        backgroundColor: "primary", 
+        padding: "1rem", 
+        display: "flex", 
+        flexDirection: "column",
+        justifyContent: "space-between", 
+        alignItems: "center",
+        width: "70vw",
+        maxWidth: "100%",
+        margin: "0 auto",
+      }}
+    >
       <Box>
         <IconButton href="https://pinterest.com" target="_blank" aria-label="Pinterest">
           <Pinterest />

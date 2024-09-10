@@ -32,7 +32,7 @@ const theme = createTheme({
       fontWeight: 700,   // Negrito nos botões
     },
     h3: {
-      fontFamily: '"Dancing Script", cursive',  // Fonte caligrafada para títulos - alterar quando necessário
+      fontFamily: '"Dancing Script", cursive',  // Fonte caligrafada para títulos
     }
   },
   components: {
@@ -57,6 +57,15 @@ const theme = createTheme({
           textAlign: 'center',       // Centraliza o texto
         },
       },
+    },
+  },
+  breakpoints: {
+    values: {
+      xs: 0,   // Dispositivos móveis pequenos
+      sm: 600, // Dispositivos móveis maiores e tablets
+      md: 960, // Tamanhos médios (tablets grandes, pequenos desktops)
+      lg: 1280, // Laptops e desktops maiores
+      xl: 1920, // Monitores muito grandes
     },
   },
 });
