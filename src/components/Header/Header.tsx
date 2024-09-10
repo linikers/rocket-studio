@@ -1,4 +1,4 @@
-import { Box, Grid2, Typography } from "@mui/material"
+import { Box, Button, Grid2, Typography } from "@mui/material"
 
 export const Header = () => (
     <Box>
@@ -6,6 +6,10 @@ export const Header = () => (
                 <Typography>
                     Rocket Tattoo
                 </Typography>
+
+                <Button>Home</Button>
+                <Button>Portifolio</Button>
+                <Button>Contato</Button>
         </Grid2>
     </Box>
 )

@@ -5,13 +5,13 @@ export const Footer = () => (
     <Box>
         <Grid2 container alignItems="center" spacing={1}>
             <Grid2>
-                <IconButton href="" target="_blanck" aria-label="Pinterest">
+                <IconButton href="" target="_blank" aria-label="Pinterest">
                     <Pinterest />
                 </IconButton>
-                <IconButton href="" target="_blanck" aria-label="Instagram">
+                <IconButton href="" target="_blank" aria-label="Instagram">
                     <Instagram />
                 </IconButton>
-                <IconButton href="" target="_blanck" aria-label="Facebook">
+                <IconButton href="" target="_blank" aria-label="Facebook">
                     <Facebook />
                 </IconButton>
             </Grid2>
