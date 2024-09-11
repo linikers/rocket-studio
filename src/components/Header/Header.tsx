@@ -1,5 +1,7 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Grid2, Typography } from "@mui/material";
 import Link from "next/link";
+import Logo from "../Logo/Logo";
+import { BtnCustom } from "../Button/BtnCustom";
 
 const Header = () => {
   return (
@@ -10,7 +12,7 @@ const Header = () => {
         display: "flex", 
         justifyContent: "space-between", 
         alignItems: "center",
-        width: "70vw",
+        width: "98vw",
         maxWidth: "100%",
         margin: "0 auto",
         textAlign: {
@@ -19,18 +21,36 @@ const Header = () => {
         },
       }}
     >
-      <Typography variant="h6">Rocket Studio</Typography>
+      <Grid2
+        display='flex'
+        flexDirection='row'
+        alignItems='center'
+        justifyContent='space-between'
+      >
+        <Logo />
+        <Typography variant="h6">Rocket Studio</Typography>
+      </Grid2>
       <Box>
-        {/* Usando Buttons e Links para navegação */}
-        <Button component={Link} href="/" sx={{ marginRight: "1rem" }}>
-          Home
-        </Button>
-        <Button component={Link} href="/portfolio" sx={{ marginRight: "1rem" }}>
-          Portfolio
-        </Button>
-        <Button component={Link} href="/contato">
-          Contato
-        </Button>
+        <BtnCustom 
+          href="/"
+          label="Home"
+          variant="contained"
+          color="secondary"
+          marginRight="4px"
+        />
+        <BtnCustom 
+          href="/portifolio"
+          label="Portifolio"
+          variant="contained"
+          color="secondary"
+          marginRight="4px"
+        />
+        <BtnCustom 
+          href="/contato"
+          label="Contato"
+          variant="contained"
+          color="secondary"
+        />
       </Box>
     </Box>
   );

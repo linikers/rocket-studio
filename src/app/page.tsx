@@ -1,5 +1,5 @@
 import { Box,Typography } from "@mui/material";
-import rocket from "../../public/images/rocketStdio.png.png"
+import rocket from "../../public/images/rocketStdio.png"
 import Image from "next/image";
 
 export default function Home() {
