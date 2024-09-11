@@ -19,7 +19,7 @@ const theme = createTheme({
       dark: blue[700],     // Cor mais escura
     },
     background: {
-      default: '#f5f5f5',  // Cor de fundo
+      default: '#ba68c8',  // Cor de fundo
     },
     text: {
       primary: '#000000',   // Cor principal do texto

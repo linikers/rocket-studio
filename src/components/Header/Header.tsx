@@ -8,7 +8,7 @@ const Header = () => {
     <Box 
       sx={{
         padding: "1rem", 
-        backgroundColor: "#f5f500", 
+        backgroundColor: "primary.light", 
         display: "flex", 
         justifyContent: "space-between", 
         alignItems: "center",
@@ -39,8 +39,8 @@ const Header = () => {
           marginRight="4px"
         />
         <BtnCustom 
-          href="/portifolio"
-          label="Portifolio"
+          href="/portfolio"
+          label="Portfolio"
           variant="contained"
           color="secondary"
           marginRight="4px"

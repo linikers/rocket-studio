@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <Box 
       sx={{
-        backgroundColor: "primary", 
+        backgroundColor: "primary.light", 
         padding: "1rem", 
         display: "flex", 
         flexDirection: "column",
         justifyContent: "space-between", 
         alignItems: "center",
-        width: "70vw",
+        width: "90vw",
         maxWidth: "100%",
         margin: "0 auto",
       }}
